@@ -36,7 +36,7 @@
         <jbossTargetDir>${project.build.directory}/jboss-as-${jbossas.version}</jbossTargetDir>
         <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
         <remote.debug/>
-        <validation.api.version>3.0.0</validation.api.version>
+        <validation.api.version>2.0.2</validation.api.version>
         <testng.version>6.14.3</testng.version>
         <assertj-core.version>3.7.0</assertj-core.version>
         <shrinkwrap.descriptors.version>2.0.0-alpha-10</shrinkwrap.descriptors.version>
