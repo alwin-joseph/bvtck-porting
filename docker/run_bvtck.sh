@@ -125,7 +125,7 @@ mvn -version
 
 #List dependencies used for testing
 cd ${TS_HOME}/glassfish-tck-runner
-mvn --global-settings "${TS_HOME}/settings.xml" dependency:tree
+mvn -e --global-settings "${TS_HOME}/settings.xml" dependency:tree
 
 #Generate Reports
 echo "<pre>" > ${REPORT}/beanvalidation-$VER-sig/report.html
